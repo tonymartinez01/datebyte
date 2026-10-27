@@ -240,7 +240,7 @@ export default function EnchantingDateProposalApp() {
           { name: "Italian", icon: <Utensils className="w-6 h-6" /> },
           { name: "Mexican", icon: <Utensils className="w-6 h-6" /> },
           { name: "Greek", icon: <Utensils className="w-6 h-6" /> },
-          { name: "Asian", icon: <Coffee className="w-6 h-6" /> },
+          { name: "Asian", icon: <Utensils className="w-6 h-6" /> },
           { name: "Fast Food", icon: <Utensils className="w-6 h-6" /> },
         ].map(({ name, icon }) => (
           <SelectButton
