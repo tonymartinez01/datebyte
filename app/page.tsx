@@ -96,7 +96,7 @@ export default function EnchantingDateProposalApp() {
     
     <motion.div key="step0" className="text-center" {...fadeInUp}>
       <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-rose-500">
-        Will you go on a date with me?
+        Wanna hang out?
       </h1>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
@@ -160,7 +160,7 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step1" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={1} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        YEYYYYYYYY, WHEN SHALL WE GO?
+        Book me below
       </h2>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
@@ -223,7 +223,7 @@ export default function EnchantingDateProposalApp() {
         disabled={!answers.date || !answers.time}
         className="bg-gradient-to-r from-pink-500 to-rose-500 hover:brightness-95 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
       >
-        <Clock className="mr-2 h-5 w-5" /> Set our date!{" "}
+        <Clock className="mr-2 h-5 w-5" /> Set our hangout!{" "}
         <Heart className="ml-2 h-5 w-5" />
       </Button>
       </StepCard>
@@ -233,7 +233,7 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step2" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={2} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        What are our taste buds gravitating towards? (No Habibi!!)
+        What are we feeling? (No Habibi!!)
       </h2>
       <div className="grid grid-cols-2 gap-4 md:gap-6 mb-8">
         {[
@@ -241,7 +241,7 @@ export default function EnchantingDateProposalApp() {
           { name: "Mexican", icon: <Utensils className="w-6 h-6" /> },
           { name: "Greek", icon: <Utensils className="w-6 h-6" /> },
           { name: "Asian", icon: <Utensils className="w-6 h-6" /> },
-          { name: "Fast Food", icon: <Utensils className="w-6 h-6" /> },
+          { name: "Brunch", icon: <Utensils className="w-6 h-6" /> },
         ].map(({ name, icon }) => (
           <SelectButton
             key={name}
@@ -272,7 +272,7 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step4" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={3} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        How excited are you for our date?
+        How excited are you for our hangout?
       </h2>
       <div className="max-w-lg mx-auto mb-8 p-8 bg-gradient-to-b from-white/80 to-pink-50/60 rounded-2xl shadow-lg border border-pink-100">
         <Slider
