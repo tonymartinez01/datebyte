@@ -21,7 +21,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Heart, Coffee, Film, Utensils, Clock } from "lucide-react";
+import { Heart, Film, Utensils } from "lucide-react";
 import confetti from "canvas-confetti";
 import ThemedCard from "@/components/ThemedCard";
 import Sparkles from "@/components/Sparkles";
@@ -158,7 +158,7 @@ export default function EnchantingDateProposalApp() {
 
     
     <motion.div key="step1" className="text-center" {...fadeInUp}>
-      <StepCard stepNumber={1} totalSteps={6}>
+      <StepCard stepNumber={1} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
         YEYYYYYYYY, WHEN SHALL WE GO?
       </h2>
@@ -231,7 +231,7 @@ export default function EnchantingDateProposalApp() {
 
   
     <motion.div key="step2" className="text-center" {...fadeInUp}>
-      <StepCard stepNumber={2} totalSteps={6}>
+      <StepCard stepNumber={2} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
         What shall we feast on, my dear?
       </h2>
@@ -267,46 +267,7 @@ export default function EnchantingDateProposalApp() {
       </StepCard>
     </motion.div>,
 
-     {/*
-    <motion.div key="step3" className="text-center" {...fadeInUp}>
-      <h2 className="text-3xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        What shall we watch together?
-      </h2>
-      <div className="grid grid-cols-2 gap-6 mb-6">
-        {[
-          "The Notebook",
-          "La La Land",
-          "Titanic",
-          "Pride and Prejudice",
-          "Anyone But You",
-          "Past Lives",
-          "Love at First Sight",
-          "Through My Window 3",
-          "Something else",
-        ].map((movie) => (
-          <motion.button
-            key={movie}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-white text-pink-600 hover:bg-pink-100 font-bold py-4 px-6 rounded-lg shadow-md transition-colors duration-300"
-            onClick={() => {
-              if (movie === "Something else") {
-                const customMovie = prompt(
-                  "What movie would you like to watch?"
-                );
-                if (customMovie) handleAnswer("movie", customMovie);
-              } else {
-                handleAnswer("movie", movie);
-              }
-            }}
-          >
-            <Film className="mx-auto mb-2" />
-            {movie}
-          </motion.button>
-        ))}
-      </div>
-    </motion.div>,
-*/}
+  
     
     <motion.div key="step4" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={3} totalSteps={4}>
