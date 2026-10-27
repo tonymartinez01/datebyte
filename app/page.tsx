@@ -233,7 +233,7 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step2" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={2} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        What shall we feast on, my dear?
+        What are our taste buds gravitating towards? (No Habibi!!)
       </h2>
       <div className="grid grid-cols-2 gap-4 md:gap-6 mb-8">
         {[
@@ -303,7 +303,7 @@ export default function EnchantingDateProposalApp() {
         }}
         className="bg-gradient-to-r from-pink-500 to-rose-500 hover:brightness-95 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
       >
-        Let&apos;s make it official! 💕
+        Let&apos;s make it official! 
       </Button>
       </StepCard>
     </motion.div>,
@@ -315,7 +315,7 @@ export default function EnchantingDateProposalApp() {
         It&apos;s a party!
       </h2>
       <p className="text-lg text-rose-500 mb-3 font-poppins">
-        I can&apos;t wait to see you on:
+        see you on:
       </p>
       <motion.div
         initial={{ scale: 0.9, opacity: 0 }}
