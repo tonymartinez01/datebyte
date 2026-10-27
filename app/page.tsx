@@ -267,7 +267,7 @@ export default function EnchantingDateProposalApp() {
       </StepCard>
     </motion.div>,
 
-     
+     {/*
     <motion.div key="step3" className="text-center" {...fadeInUp}>
       <h2 className="text-3xl font-semibold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
         What shall we watch together?
@@ -306,10 +306,10 @@ export default function EnchantingDateProposalApp() {
         ))}
       </div>
     </motion.div>,
-
+*/}
     
     <motion.div key="step4" className="text-center" {...fadeInUp}>
-      <StepCard stepNumber={4} totalSteps={6}>
+      <StepCard stepNumber={3} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
         How excited are you for our date?
       </h2>
@@ -349,9 +349,9 @@ export default function EnchantingDateProposalApp() {
 
      
     <motion.div key="step5" className="text-center" {...fadeInUp}>
-      <StepCard stepNumber={6} totalSteps={6}>
+      <StepCard stepNumber={4} totalSteps={4}>
       <h2 className="text-5xl sm:text-6xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-rose-500">
-        It&apos;s a date, my love!
+        It&apos;s a party!
       </h2>
       <p className="text-lg text-rose-500 mb-3 font-poppins">
         I can&apos;t wait to see you on:
@@ -388,7 +388,7 @@ export default function EnchantingDateProposalApp() {
         className="mt-8 space-y-3 text-lg text-pink-600 font-poppins"
       >
         <p className="text-base">We&apos;ll enjoy some delicious <span className="font-semibold">{answers.food.join(", ")}</span>.</p>
-        <p className="text-base">Then we&apos;ll watch <span className="font-semibold italic">&quot;{answers.movie}&quot;</span> together.</p>
+        
         <p className="text-xl font-playfair font-bold mt-6">
           Your excitement level: <span className="text-rose-600">{answers.excitement}/100</span>
         </p>
