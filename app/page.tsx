@@ -114,7 +114,7 @@ export default function EnchantingDateProposalApp() {
           }}
           className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105"
         >
-          Yes, I&apos;d love to!
+          Yes handsome, I&apos;d love to!
         </Button>
         <Dialog>
           <DialogTrigger asChild>
@@ -233,7 +233,7 @@ export default function EnchantingDateProposalApp() {
     <motion.div key="step2" className="text-center" {...fadeInUp}>
       <StepCard stepNumber={2} totalSteps={4}>
       <h2 className="text-4xl sm:text-5xl font-playfair font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-rose-500 to-pink-600">
-        What are we feeling? (Sorry, no Indian food lol)
+        What are we feeling?
       </h2>
       <div className="grid grid-cols-2 gap-4 md:gap-6 mb-8">
         {[
