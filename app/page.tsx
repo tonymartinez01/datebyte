@@ -395,7 +395,7 @@ export default function EnchantingDateProposalApp() {
           <Sparkles count={18} />
           <AnimatePresence mode="wait">{steps[step]}</AnimatePresence>
         </ThemedCard>
-        <FairyFooter />
+        {/* <FairyFooter /> */}
       </div>
     </div>
   );
